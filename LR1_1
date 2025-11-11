@@ -1,0 +1,31 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace lr1_1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Лабораторная работа №1. Структура консольного приложения");
+            Console.WriteLine("Выполнил: Кузнецов Александр Вадимович");
+            Console.WriteLine("Группа: ИДБ-23-01. Шифр специальности: 09.03.01");
+            Console.WriteLine("Дата рождения: 02.07.2004");
+            Console.WriteLine("Город: Москва");
+            Console.WriteLine("Любимый школьный предмет: физика");
+            Console.WriteLine("Увлечений, хобби, интересы: футбол, судоку, произведения Сапковского, Харриса и Конан Дойля");
+
+            double g = 9.98;
+            double h = 3.5f;
+            int d17 = 17;
+
+            double ee = g * h / (double)d17 + d17 / h - (g + d17 - h) / 4;
+            Console.WriteLine($"ee = {ee}");
+
+            Console.ReadKey();
+        }
+    }
+}
